@@ -1,6 +1,6 @@
 ---
 title: No requests found in Omnibug
-meta_description: Learn why Omnibug doesn't show up in your browser's Developer Tools
+meta_description: Learn why Omnibug shows "No Requests Found"
 layout: layouts/help-article.njk
 eleventyNavigation:
     key: help.no-requests-found

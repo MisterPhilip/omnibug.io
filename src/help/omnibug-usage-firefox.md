@@ -1,6 +1,6 @@
 ---
 title: How to use Omnibug in Firefox
-meta_description: \@TODO
+meta_description: Learn how to use Omnibug for Mozilla Firefox
 layout: layouts/help-article.njk
 eleventyNavigation:
     key: help.omnibug-usage-chrome

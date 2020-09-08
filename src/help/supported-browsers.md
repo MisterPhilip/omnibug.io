@@ -1,6 +1,6 @@
 ---
 title: Supported Browsers
-meta_description: Learn why Omnibug doesn't show up in your browser's Developer Tools
+meta_description: Learn more about what browsers Omnibug supports and why
 layout: layouts/help-article.njk
 eleventyNavigation:
     key: help.supported-browsers
