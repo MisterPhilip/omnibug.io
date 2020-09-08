@@ -1,0 +1,23 @@
+[[redirects]]
+  from = "/contribute/"
+  to = "https://github.com/MisterPhilip/omnibug/blob/master/CONTRIBUTING.md"
+
+[[redirects]]
+  from = "/privacy-policy/"
+  to = "/legal/privacy-policy/"
+
+[[redirects]]
+  from = "/terms-of-service/"
+  to = "/legal/terms-of-service/"
+
+[[redirects]]
+  from = "/cookie-policy/"
+  to = "/legal/cookie-policy/"
+
+[[redirects]]
+  from = "/features/"
+  to = "/"
+
+[[redirects]]
+  from = "/help/chrome-missing-omnibug/"
+  to = "/help/omnibug-does-not-show/"
