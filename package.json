@@ -1,0 +1,46 @@
+{
+  "name": "omnibug.io",
+  "version": "1.0.0",
+  "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE >= 0",
+    "not IE_mob >= 0"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.5",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "cssnano-preset-advanced": "^4.0.7",
+    "del-cli": "^3.0.1",
+    "light-server": "^2.7.0",
+    "markdown-it-attrs": "^3.0.3",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.5.2"
+  },
+  "scripts": {
+    "clean": "del-cli --force ./dist/",
+    "eleventy:default": "eleventy",
+    "eleventy:watch": "eleventy --watch",
+    "styles:prod": "node-sass src/assets/scss/ --output dist/assets/css/ && postcss ./dist/assets/css/*.css --replace",
+    "styles:dev": "node-sass src/assets/scss/ --output dist/assets/css/ --source-map true --source-map-contents true && postcss ./dist/assets/css/*.css --replace",
+    "styles:watch": "node-sass src/assets/scss/ --output dist/assets/css/ --source-map true --source-map-contents true --watch && postcss ./dist/assets/css/*.css --replace",
+    "scripts:prod": "webpack --mode=production",
+    "scripts:dev": "set DEBUG=*&&webpack --mode=development --watch",
+    "serve": "light-server -c .lightserverrc",
+    "dev": "cross-env NODE_ENV=development npm-run-all clean styles:dev eleventy:default --parallel scripts:dev eleventy:watch serve --print-label",
+    "dev:debug": "DEBUG=* npm run dev",
+    "build": "cross-env NODE_ENV=production run-s clean scripts:prod eleventy:default styles:prod --print-label"
+  }
+}

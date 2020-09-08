@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "serve": "./dist",
+  "quiet": false,
+  "watchexps": [
+    "./src/scripts/**/*.js # npm run scripts:dev",
+    "./src/styles/**/*.scss # npm run styles:dev # reloadcss",
+    "./dist/**/*.html",
+    "./src/images/"
+  ],
+  "http2": false,
+  "open": true
+}

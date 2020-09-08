@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+body {
+  @apply bg-gray-100;
+}
+
+.btn {
+  @apply py-2 px-4 rounded inline-block;
+}
+.btn-blue {
+  @apply bg-blue-500 text-white;
+  &:hover {
+    @apply bg-blue-700;
+  }
+}
+.btn-green {
+  @apply bg-green-500 text-white;
+  &:hover {
+    @apply bg-green-700;
+  }
+}
+.browser-chrome {
+  .hidden\:chrome { @apply hidden; }
+  .block\:chrome { @apply block; }
+}
+.browser-firefox {
+  .hidden\:firefox { @apply hidden; }
+  .block\:firefox { @apply block; }
+}
+.browser-edge {
+  .hidden\:edge { @apply hidden; }
+  .block\:edge { @apply block; }
+}
+a:not(.btn) {
+  @apply text-blue-500;
+}
+a:not(.btn):hover,
+a:not(.btn):focus  {
+  @apply text-blue-600;
+}
+a:not(.btn):not(.hover\:no-underline):hover,
+ a:not(.btn):not(.hover\:no-underline):focus  {
+   @apply underline;
+ }
+h1 { @apply text-3xl font-medium leading-snug; }
+h2 { @apply font-medium text-2xl; }
+h3 { @apply font-medium text-xl; }
+h4, h5, h6 { @apply font-medium; }
+
+figure { @apply pb-4; }
+figcaption { @apply text-sm; }
+
+ul { @apply list-disc pl-4 pb-4; }
+ol { @apply list-decimal pl-4 pb-4; }
+
+.helpArticle p { @apply leading-relaxed text-base mb-4; }
+ul > p:last-of-type,
+ol > p:last-of-type {
+  @apply mb-1;
+}
+
+/* https://www.tailwindtoolbox.com/components/carousel */
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  @apply text-blue-500;
+}
+
+.timeline {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(50% - 2px);
+    height: 100%;
+    width: 4px;
+    background: rgba(0,0,0,0.2);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 5%, rgba(0,0,0,0.25) 15%, rgba(0,0,0,0.25) 90%, rgba(0,0,0,0) 100%);
+    z-index: -1;
+  }
+
+  article {
+    @apply grid grid-cols-1 w-full mt-10 mb-20;
+    > main {
+      @apply relative;
+
+      > div {
+        @apply p-6 bg-white rounded-lg shadow-md;
+      }
+
+    }
+    time {
+       @apply w-full text-center font-medium;
+    }
+    > section {
+      @apply text-center h-20 w-20 mb-4 mx-auto inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 flex-shrink-0;
+      > div {
+        @apply text-center;
+      }
+    }
+    &:nth-of-type(odd) {
+      > section {
+        @apply text-right;
+      }
+      > main:before {
+        border-top-color: transparent;
+        border-right-color: transparent;
+        left: -7px;
+        transform: rotate(45deg)
+      }
+    }
+
+    &:nth-of-type(even) {
+      > section {
+        @apply text-left;
+      }
+      > main:before {
+        border-top-color: transparent;
+        border-left-color: transparent;
+        right: -7px;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+
+@screen md {
+  #homepage-hero {
+    padding-bottom: 10rem;
+  }
+  #homepage-hero-screencap {
+    img {
+      margin-top: -5rem;
+    }
+  }
+  .timeline article {
+    @apply grid-cols-2;
+    > section {
+      @apply w-32 h-32 ml-8;
+    }
+    > main {
+      &:before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border: 7px solid white;
+        top: 20px;
+      }
+    }
+
+    &:nth-of-type(odd) {
+      > section {
+        @apply ml-auto mr-4 col-start-1;
+      }
+      > main {
+        @apply ml-8;
+      }
+    }
+    &:nth-of-type(even) {
+      > section {
+        @apply mr-auto ml-4 col-start-2;
+      }
+      > main {
+        @apply mr-8 row-start-1;
+      }
+    }
+  }
+
+  h1 { @apply text-4xl; }
+  h2 { @apply text-3xl; }
+  h3 { @apply text-2xl; }
+}
+@screen lg {
+  #homepage-hero {
+    padding-bottom: 15rem;
+  }
+  #homepage-hero-screencap {
+    img {
+      margin-top: -10rem;
+    }
+  }
+}
+@screen xl {
+  #homepage-hero {
+    padding-bottom: 15rem;
+  }
+  #homepage-hero-screencap {
+    img {
+      margin-top: -15rem;
+    }
+  }
+}
+

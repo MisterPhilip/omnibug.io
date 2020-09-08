@@ -1,0 +1,10 @@
+# Main files
+dist/
+
+# NPM/Yarn
+node_modules/
+yarn-error.log
+
+# Editor Configs
+.vscode/
+.idea/
