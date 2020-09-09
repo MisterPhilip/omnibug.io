@@ -5,5 +5,9 @@ module.exports = {
     purge: [
         "./dist/**/*.html",
         "./dist/assets/scripts/*.js",
-    ]
+    ],
+    future: {
+        removeDeprecatedGapUtilities: true,
+        purgeLayersByDefault: true,
+    },
 }
