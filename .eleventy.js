@@ -1,4 +1,5 @@
 const navPlugin = require("@11ty/eleventy-navigation");
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = (eleventyConfig) => {
     let markdown = require("markdown-it")({
@@ -18,6 +19,12 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addWatchTarget("src/assets/images");
 
     eleventyConfig.addPlugin(navPlugin);
+
+    eleventyConfig.addPlugin(sitemap, {
+        sitemap: {
+            hostname: "https://omnibug.io",
+        },
+    });
 
     return {
         // templateFormats: ["css"],
