@@ -10,6 +10,27 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.17.0" id="v1.17.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.17.0</h3>
+            <time class="text-sm" datetime="2020-09-10">September 10, 2020</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added TikTok, Demandbase as new providers</li>
+            <li>Added support for Mparticle v3</li>
+            <li>Added support for first-party implementations of Google Analytics (i.e. server-sided GTM)</li>
+        </ul>
+        <h5>Bug Fixes:</h5>
+        <ul>
+            <li>Fixed an issue with highlighted rows using default colors in dark mode</li>
+            <li>Fixed an issue with Chrome and the Copy Value feature in the context menu</li>
+        </ul>
+        <h5>New / Updated Features:</h5>
+        <ul>
+            <li>Highlighted parameters are now case-insensitive</li>
+        </ul>
+    </article>
     <article data-version="1.16.1" id="v1.16.1" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.16.1</h3>
