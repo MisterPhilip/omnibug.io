@@ -10,6 +10,16 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.17.2" id="v1.17.2" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.17.2</h3>
+            <time class="text-sm" datetime="2020-12-13">December 13, 2020</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Inclusion of Adobe Media SDK v3</li>
+        </ul>
+    </article>
     <article data-version="1.17.1" id="v1.17.1" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.17.1</h3>
