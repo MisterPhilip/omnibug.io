@@ -10,6 +10,17 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.17.3" id="v1.17.3" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.17.3</h3>
+            <time class="text-sm" datetime="2021-02-08">February 8, 2020</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Fix Adobe Media SDK v3 Context Variables</li>
+            <li>Allow nexus-test subdomain for Ensighten</li>
+        </ul>
+    </article>
     <article data-version="1.17.2" id="v1.17.2" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.17.2</h3>
