@@ -10,10 +10,21 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.18.0" id="v1.18.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.18.0</h3>
+            <time class="text-sm" datetime="2021-10-23">October 23, 2021</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added Tealium EventStream, 6Sesnse, Hotjar, and Microsoft Clarity</li>
+            <li>Fixed Google Analytics's false positive with Microsoft Clarity</li>
+        </ul>
+    </article>
     <article data-version="1.17.3" id="v1.17.3" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.17.3</h3>
-            <time class="text-sm" datetime="2021-02-08">February 8, 2020</time>
+            <time class="text-sm" datetime="2021-02-08">February 8, 2021</time>
         </header>
         <h5>Provider Updates:</h5>
         <ul>
