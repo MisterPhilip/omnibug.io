@@ -10,6 +10,19 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.21.0" id="v1.21.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.21.0</h3>
+            <time class="text-sm" datetime="2023-08-03">August 3, 2023</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added Parse.ly (thanks <a href="https://github.com/jshhnsn">@jshhnsn</a>)</li>
+            <li>Added RudderStack</li>
+            <li>Split Google Analytics into two separate providers (Universal Analytics / GA4)</li>
+            <li>Minor bug fixes for Google Ads/Doubleclick</li>
+        </ul>
+    </article>
     <article data-version="1.20.0" id="v1.20.0" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.20.0</h3>
