@@ -10,6 +10,16 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.21.1" id="v1.21.1" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.21.1</h3>
+            <time class="text-sm" datetime="2023-08-09">August 9, 2023</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Fixed an issue where Universal Analytics would not always be captured</li>
+        </ul>
+    </article>
     <article data-version="1.21.0" id="v1.21.0" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.21.0</h3>
