@@ -10,6 +10,27 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.22.0" id="v1.22.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.22.0</h3>
+            <time class="text-sm" datetime="2023-10-08">October 8, 2023</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added Medallia DXA (f/k/a Decibel Insights)</li>
+            <li>Added Crazy Egg</li>
+            <li>Added The Trade Desk Universal Pixel</li>
+            <li>Added Amazon Ad Tag</li>
+            <li>Added FullStory</li>
+            <li>Added Braze</li>
+            <li>Added Amplitude</li>
+            <li>Added Adform</li>
+            <li>Added Brevo</li>
+            <li>Updated Segment to allow for EU endpoints (thanks <a href="https://github.com/adrian-seijo">@adrian-seijo</a>)</li>
+            <li>Updated Tealium iQ to allow for first party domains</li>
+            <li>Updated nomenclature for JS library load events</li>
+        </ul>
+    </article>
     <article data-version="1.21.1" id="v1.21.1" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.21.1</h3>
