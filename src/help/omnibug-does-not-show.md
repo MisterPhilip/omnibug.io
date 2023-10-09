@@ -8,14 +8,19 @@ eleventyNavigation:
     parent: help
 ---
 
-### Problem: 
+<figure class="figure text-center">
+    <img src="/assets/images/help/missing-devtools-panel.png" class="mx-auto border" alt="Omnibug missing from DevTools screenshot">
+    <figcaption>Omnibug missing from the DevTools window</figcaption>
+</figure>
 
-When opening the developer tools, Omnibug does not appear in the list of tabs.
+### Omnibug is not enabled. 
+Ensure that you've enabled the Omnibug in your browser's extensions page. See [how to use Omnibug](../omnibug-usage-chrome/)
 
-### Prognosis:
+### You opened the devtools window on a `chrome://` or `file://` URL. 
+In Chromium v114, all extensions that add to the devtools window will no longer load on any `chrome://` or `file://` URLs. 
+This includes the default New Tab screen(`chrome://new-tab-page/`), the extensions settings (`chrome://extensions`), and local files that are not hosted by a web server. 
 
-This could be caused by multiple reasons:
+To get around this, you will need to navigate to a webpage, then open your developer tools. If you need to see everything 
+for the first page view, open a different site (e.g., [Omnibug.io](https://omnibug.io/)), then change the URL to your desired URL. 
 
- 1. Omnibug is not enabled. Ensure that you've enabled the Omnibug in your browser's extensions page.
- 1. This was a known Chromium issue, for for all extensions that use the developer tools window. This has been solved as 
- of v84, but ensure that your browser is up-to-date.
+This is currently being tracked in [issue 219](https://github.com/MisterPhilip/omnibug/issues/219) and is only an issue for Chromium-based browsers.
