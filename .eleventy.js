@@ -1,5 +1,6 @@
 const navPlugin = require("@11ty/eleventy-navigation");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
 
 module.exports = (eleventyConfig) => {
     const env = process.env.NODE_ENV || "development",
@@ -25,6 +26,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addWatchTarget("src/assets/images");
 
     eleventyConfig.addPlugin(navPlugin);
+    eleventyConfig.addPlugin(inclusiveLangPlugin);
 
     eleventyConfig.addPlugin(sitemap, {
         sitemap: {

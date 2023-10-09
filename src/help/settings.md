@@ -48,12 +48,12 @@ input. To remove a parameter, click the `x` next to the parameter name.
 
 In addition to filters within each Omnibug instance, enabled providers allows you to capture or ignore certain providers
 on a global level. This is useful if you don't use certain providers (marketing tools) and you don't want to see them. 
-You can simply uncheck the checkbox next to the provider's name, and Omnibug will no longer capture requests from that 
+You can uncheck the checkbox next to the provider's name, and Omnibug will no longer capture requests from that 
 provider. 
 
 ### Expand entries by default {#expand-entries-by-default}
 
-By default, each request (entry) is collapsed so you can see the list of requests easier. However, if you prefer to have 
+By default, each request (entry) is collapsed, so you can see the list of requests easier. If you prefer to have 
 each request expanded and all the parameters / information shown by default, check this box. 
 
 ### Show redirected entries {#show-redirected-entries}
@@ -132,8 +132,8 @@ force a light or dark theme via this option.
 ### Colors {#colors}
 
 Omnibug allows you to customize various colors of the interface. If the default color is selected, the corresponding 
-default value will be used for each theme. However, if a different color is selected, that color will remain across all 
-themes. The default color is provided in the color dropdown should you want to revert just the color and not all of your
+default value will be used for each theme. If a different color is selected, that color will remain across all 
+themes. The default color is provided in the color dropdown should you want to revert the color and not all of your
 settings.
 
 ##### Page load event {#color-page-load-event}

@@ -22,8 +22,8 @@ loading a page, or refresh the page after you've opened Omnibug.
 
 ### You recently cleared the requests
 
-Clearing the current requests by clicking the trash can icon will remove all requests from Omnibug. This basically
-means the same thing as the previous reason, where no requests have been sent since you clicked the clear button.
+Clearing the current requests by clicking the trash can icon will remove all requests from Omnibug. This means the same 
+thing as the previous reason, where no requests have been sent since you clicked the clear button.
 
 ### A request was sent, but the provider was disabled in Omnibug
 
@@ -39,9 +39,9 @@ could be preventing the requests from being sent, e.g. a JavaScript error, inval
 ### The page is using service workers to cache/send requests
 
 [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) allow 
-developers to have better control over asset caching. Basically the developer's code will be "installed" on the user's
+developers to have better control over asset caching. The developer's code will be "installed" on the user's
 machine and run in the background when they visit the website. This is very similar to how extensions like Omnibug work -
-all in the background where the user can't see it. However, any network requests from service workers may not show up 
+all in the background where the user can't see it. Note that any network requests from service workers may not show up 
 in Omnibug since the request originates from the service worker and not the browser's tab. This is much more prevalent 
 for Chromium browsers than Firefox. 
 

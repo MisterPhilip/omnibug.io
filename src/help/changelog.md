@@ -314,7 +314,7 @@ You can find a full list of releases on our [GitHub Page](https://github.com/Mis
             <li>Added Google Ads and Google DoubleClick as new providers</li>
             <li>Added Adobe Experience Cloud ID Service, which was previously lumped under the Adobe Audience Manager provider</li>
             <li>Updated the Adobe Audience Manager to include the request type and now matches more parameters with friendly names</li>
-            <li>Removed the "microdata" event type for Facebook. It provided no actionable insights and was just noise in the interface</li>
+            <li>Removed the "microdata" event type for Facebook. It provided no actionable insights and was noise in the interface</li>
             <li>Removed DoubleClick as a request type from Google Analytics. This was confusing users on if their GA call was successful or not
                 (especially if they have "hide redirects" enabled). You can now check if the request has DoubleClick enabled by seeing if there is a
                 "Display Features Enabled" field under the General section.</li>
