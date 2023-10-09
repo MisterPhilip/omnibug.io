@@ -3,6 +3,9 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = (eleventyConfig) => {
 
+    eleventyConfig.addGlobalData("helpers.environment", () => process.env.NODE_ENV || "development");
+    eleventyConfig.addGlobalData("helpers.currentYear", () => (new Date()).getFullYear());
+
     let markdown = require("markdown-it")({
         html: true,
         linkify: true

@@ -16,13 +16,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114343677-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-09GPPK8P69"></script>
     <script>
-        // Google Gtag
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag("js", new Date());
-        gtag("config", "UA-114343677-1");
+        {% if helpers.environment === "production" %}
+        gtag("config", "G-09GPPK8P69");
 
         // Microsoft Clarity
         (function(c,l,a,r,i,t,y){
@@ -30,6 +30,9 @@
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "4fc7uslh2x");
+        {% else %}
+        gtag("config", "G-09GPPK8P69", { 'debug_mode':true });
+        {% endif %}
     </script>
 </head>
 <body class="flex flex-col min-h-screen">
@@ -74,14 +77,20 @@
     </main>
     <footer class="bg-gray-100 text-gray-600 text-sm">
         <div class="container mx-auto p-6 md:px-4 flex flex-col-reverse md:flex-row">
-            <p class="flex-grow text-center md:text-left py-2 md:py-0">&copy; 2020 <a href="https://misterphilip.com/">Philip Lawrence</a> &amp; <a href="https://github.com/MisterPhilip/omnibug/graphs/contributors" rel="nofollow">Contributors</a>.</p>
+            <p class="flex-grow text-center md:text-left py-2 md:py-0">&copy; {{ helpers.currentYear }} <a href="https://misterphilip.com/">Philip Lawrence</a> &amp; <a href="https://github.com/MisterPhilip/omnibug/graphs/contributors" rel="nofollow">Contributors</a>.</p>
             <nav class="flex-grow-0">
                 <ul class="text-center list-none">
                     <li class="md:inline-block py-1 md:pr-4 md:py-0">
                         <a href="/about/">About</a>
                     </li>
                     <li class="md:inline-block py-1 md:pr-4 md:py-0">
-                        <a href="/legal/">Legal Information</a>
+                        <a href="/legal/terms-of-service/">Terms of Service</a>
+                    </li>
+                    <li class="md:inline-block py-1 md:pr-4 md:py-0">
+                        <a href="/legal/privacy-policy/">Privacy Policy</a>
+                    </li>
+                    <li class="md:inline-block py-1 md:pr-4 md:py-0">
+                        <a href="/legal/cookie-policy/">Cookie Policy</a>
                     </li>
                     <li class="md:inline-block py-1 md:pr-4 md:py-0">
                         <a href="https://github.com/MisterPhilip/omnibug" rel="nofollow">
@@ -100,5 +109,14 @@
         </div>
     </footer>
     <!-- Icons provided by FontAwesome https://fontawesome.com/license/free -->
+    <script>
+        window.addEventListener("click", (event) => {
+            if(event.target && event.target.hasAttribute("data-install-button")) {
+                gtag("event", "install", {
+                    "install_browser": event.target.getAttribute("data-install-button")
+                });
+            }
+        });
+    </script>
 </body>
 </html>
