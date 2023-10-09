@@ -75,13 +75,13 @@ layout: layouts/main.njk
                      alt="Screenshot of Omnibug's interface in Firefox showing multiple requests on omnibug.io"  class="mx-auto shadow-2xl rounded-lg">
             </template>
         </div>
-        <h2 class="text-2xl md:text-4xl mx-auto text-center text-white mb-4">Verify with confidence</h2>
+        <h2 class="text-2xl md:text-4xl mx-auto text-center text-white mb-4">Verify With Confidence</h2>
         <p class="text-center text-xl text-slate-200 mb-8 md:mb-12 w-full lg:w-3/4 mx-auto px-4 md:px-0">
             Ensuring the seamless performance of your MarTech tools should be a breeze, yet the reality is often quite the opposite.
             Many vendors fall short in providing user-friendly solutions, leaving businesses grappling with technical complexities, poor documentation, and a plethora of outdated browser extensions.
             Enter Omnibug – your simplified quality assurance partner, designed to effortlessly streamline the process and put the power back in your hands.
         </p>
-        <hr class="w-1/2 mx-auto mb-8 md:mb-12 border-slate-500">
+        <hr class="w-1/2 mx-auto mb-8 md:mb-12 border-slate-400">
         <section class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 text-slate-100 text-center">
             <section>
                 <h3 class="mb-1 md:mb-2 text-white text-xl title-font font-medium">
@@ -97,7 +97,7 @@ layout: layouts/main.njk
                     <div class="mx-auto rounded-full w-20 h-20 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 mb-5 flex-shrink-0">
                         <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-10 h-10"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
                     </div>
-                    Filter &amp; Find Your Tools
+                    Filter &amp; Find Your Tags
                 </h3>
                 <p class="leading-relaxed text-base">Quickly filter out tags that you don't need to see, or search for requests matching a certain account ID.</p>
             </section>
@@ -165,11 +165,28 @@ layout: layouts/main.njk
         </div>
     </section>
 </section>
+<section class="bg-slate-500 py-10 md:pb-20 px-6 md:px-4">
+    <div class="container mx-auto py-5 px-6 md:px-4">
+        <div class="text-center px-4 py-5">
+            <h2 class="text-2xl md:text-4xl mx-auto text-center text-white mb-4">The Tags You Use</h2>
+            <p class="text-center text-xl text-slate-200 mb-6 w-full lg:w-3/4 mx-auto px-4 md:px-0">
+                Omnibug supports the most common marketing and analytics tools, including Google Analytics, Google Tag Manager, Adobe Analytics, Meta Pixel, and many, many others.
+                This versatility makes it a valuable tool for professionals working with diverse marketing stacks.
+            </p>
+            <p class="leading-relaxed text-base mb-4">
+                <a class="mx-auto text-white btn btn-blue" href="/help/supported-tags/">See the {{ tags.length }} marketing tags Omnibug supports</a>
+            </p>
+        </div>
+    </div>
+</section>
 <section>
-    <div class="container mx-auto py-5 mb-20 px-6 md:px-4 border-t-2 border-b-2">
+    <div class="container mx-auto py-5 px-6 md:px-4">
         <div class="text-center px-4 py-5">
             <h2 class="sm:text-3xl text-2xl font-medium title-font mb-2 mx-auto">Simplify Your QA Process</h2>
-            <p class="leading-relaxed text-base my-4">
+            <p class="text-center text-xl mb-4 w-full lg:w-3/4 mx-auto px-4 md:px-0">
+                What are you waiting for? Let Omnibug help you QA today!
+            </p>
+            <p class="leading-relaxed text-base mb-6">
                 <a class="mx-auto text-white btn btn-blue" href="/install/">Install Omnibug</a>
             </p>
         </div>

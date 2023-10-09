@@ -1,0 +1,402 @@
+[
+  {
+    "id": "Adform",
+    "image": "Adform",
+    "name": "Adform",
+    "type": "Marketing",
+    "url": "https://site.adform.com/"
+  },
+  {
+    "id": "AdobeAnalytics",
+    "image": "AdobeAnalytics",
+    "name": "Adobe Analytics",
+    "type": "Analytics",
+    "url": "https://business.adobe.com/products/analytics/adobe-analytics.html"
+  },
+  {
+    "id": "AdobeAudienceManager",
+    "image": "AdobeAudienceManager",
+    "name": "Adobe Audience Manager",
+    "type": "Visitor Identification",
+    "url": "https://business.adobe.com/products/audience-manager/adobe-audience-manager.html"
+  },
+  {
+    "id": "AdobeDynamicTagManager",
+    "image": "AdobeDynamicTagManager",
+    "name": "Adobe Dynamic Tag Manager",
+    "type": "Tag Management",
+    "url": "https://business.adobe.com/products/experience-platform/launch-tag-manager.html"
+  },
+  {
+    "id": "AdobeExperienceID",
+    "image": "AdobeAudienceManager",
+    "name": "Adobe Experience Cloud ID",
+    "type": "Visitor Identification",
+    "url": "https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html"
+  },
+  {
+    "id": "AdobeHeartbeat",
+    "image": "AdobeHeartbeat",
+    "name": "Adobe Heartbeat",
+    "type": "Analytics",
+    "url": "https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"
+  },
+  {
+    "id": "AdobeLaunch",
+    "image": "AdobeLaunch",
+    "name": "Adobe Launch",
+    "type": "Tag Management",
+    "url": "https://business.adobe.com/products/experience-platform/launch-tag-manager.html"
+  },
+  {
+    "id": "AdobeLaunchCN",
+    "image": "AdobeLaunch",
+    "name": "Adobe Launch China Node",
+    "type": "Tag Management",
+    "url": "https://business.adobe.com/products/experience-platform/launch-tag-manager.html"
+  },
+  {
+    "id": "AdobeTarget",
+    "image": "AdobeTarget",
+    "name": "Adobe Target",
+    "type": "A/B Testing & Optimization",
+    "url": "https://business.adobe.com/products/target/adobe-target.html"
+  },
+  {
+    "id": "AdobeWebSDK",
+    "image": "AdobeWebSDK",
+    "name": "Adobe Experience Platform Web SDK",
+    "type": "Analytics",
+    "url": "https://experienceleague.adobe.com/docs/experience-platform/edge/home.html"
+  },
+  {
+    "id": "AmazonAdTag",
+    "image": "AmazonAdTag",
+    "name": "Amazon Ad Tag",
+    "type": "Marketing",
+    "url": "https://advertising.amazon.com/"
+  },
+  {
+    "id": "Amplitude",
+    "image": "Amplitude",
+    "name": "Amplitude",
+    "type": "Analytics",
+    "url": "https://www.amplitude.com/"
+  },
+  {
+    "id": "ATInternet",
+    "image": "ATInternet",
+    "name": "AT Internet",
+    "type": "Analytics",
+    "url": "https://www.atinternet.com/"
+  },
+  {
+    "id": "BingAds",
+    "image": "BingAds",
+    "name": "Bing Ads",
+    "type": "Marketing",
+    "url": "https://about.ads.microsoft.com/en-us/solutions/audience-targeting/universal-event-tracking"
+  },
+  {
+    "id": "Braze",
+    "image": "Braze",
+    "name": "Braze",
+    "type": "Customer Engagement",
+    "url": "https://www.braze.com/"
+  },
+  {
+    "id": "Brevo",
+    "image": "Brevo",
+    "name": "Brevo",
+    "type": "Marketing",
+    "url": "https://www.brevo.com/products/marketing-platform/"
+  },
+  {
+    "id": "Comscore",
+    "image": "Comscore",
+    "name": "Comscore",
+    "type": "Marketing",
+    "url": "https://www.comscore.com/"
+  },
+  {
+    "id": "CrazyEgg",
+    "image": "CrazyEgg",
+    "name": "Crazy Egg",
+    "type": "Session Replay/Heat Maps",
+    "url": "https://www.crazyegg.com/"
+  },
+  {
+    "id": "CriteoOneTag",
+    "image": "CriteoOneTag",
+    "name": "Criteo OneTag",
+    "type": "Marketing",
+    "url": "https://www.criteo.com/"
+  },
+  {
+    "id": "DemandbaseEngagement",
+    "image": "DemandbaseEngagement",
+    "name": "Demandbase Engagement",
+    "type": "Visitor Identification",
+    "url": "https://www.demandbase.com/solutions/engagement/"
+  },
+  {
+    "id": "EnsightenManage",
+    "image": "Ensighten",
+    "name": "Ensighten Manage",
+    "type": "Tag Management",
+    "url": "https://www.ensighten.com/products/enterprise-tag-management/"
+  },
+  {
+    "id": "FacebookPixel",
+    "image": "Facebook",
+    "name": "Facebook Pixel",
+    "type": "Marketing",
+    "url": "https://www.facebook.com/business/tools/meta-pixel"
+  },
+  {
+    "id": "FullStory",
+    "image": "FullStory",
+    "name": "Full Story",
+    "type": "Session Replay/Heat Maps",
+    "url": "https://www.fullstory.com/"
+  },
+  {
+    "id": "Glassbox",
+    "image": "Glassbox",
+    "name": "Glassbox",
+    "type": "Session Replay/Heat Maps",
+    "url": "https://www.glassbox.com/"
+  },
+  {
+    "id": "GoogleAds",
+    "image": "GoogleAds",
+    "name": "Google Ads",
+    "type": "Marketing",
+    "url": "https://ads.google.com/"
+  },
+  {
+    "id": "GoogleAnalytics",
+    "image": "GoogleAnalytics",
+    "name": "Google Universal Analytics",
+    "type": "Analytics",
+    "url": "https://analytics.google.com/"
+  },
+  {
+    "id": "GoogleAnalytics4",
+    "image": "GoogleAnalytics",
+    "name": "Google Analytics 4",
+    "type": "Analytics",
+    "url": "https://analytics.google.com/"
+  },
+  {
+    "id": "GoogleDoubleClick",
+    "image": "DoubleClick",
+    "name": "Google DoubleClick",
+    "type": "Analytics",
+    "url": "https://marketingplatform.google.com/about/enterprise/"
+  },
+  {
+    "id": "GoogleTagManager",
+    "image": "GoogleTagManager",
+    "name": "Google Tag Manager",
+    "type": "Tag Management",
+    "url": "https://tagmanager.google.com/"
+  },
+  {
+    "id": "Hotjar",
+    "image": "Hotjar",
+    "name": "Hotjar",
+    "type": "Session Replay/Heat Maps",
+    "url": "https://www.hotjar.com/"
+  },
+  {
+    "id": "Hubspot",
+    "image": "Hubspot",
+    "name": "Hubspot",
+    "type": "Marketing",
+    "url": "https://knowledge.hubspot.com/reports/install-the-hubspot-tracking-code"
+  },
+  {
+    "id": "LinkedIn",
+    "image": "LinkedInPixel",
+    "name": "LinkedIn Conversion",
+    "type": "Marketing",
+    "url": "https://business.linkedin.com/marketing-solutions/insight-tag"
+  },
+  {
+    "id": "Lytics",
+    "image": "Lytics",
+    "name": "Lytics",
+    "type": "Marketing",
+    "url": "https://www.lytics.com/"
+  },
+  {
+    "id": "Matomo",
+    "image": "Matomo",
+    "name": "Matomo",
+    "type": "Analytics",
+    "url": "http://matomo.org/"
+  },
+  {
+    "id": "MedalliaDXA",
+    "image": "MedalliaDXA",
+    "name": "Medallia DXA",
+    "type": "Analytics",
+    "url": "https://www.medallia.com/products/digital-experience-analytics/"
+  },
+  {
+    "id": "MicrosoftClarity",
+    "image": "MSClarity",
+    "name": "Microsoft Clarity",
+    "type": "Session Replay/Heat Maps",
+    "url": "https://clarity.microsoft.com/"
+  },
+  {
+    "id": "Mparticle",
+    "image": "Mparticle",
+    "name": "Mparticle",
+    "type": "Marketing",
+    "url": "https://www.mparticle.com/"
+  },
+  {
+    "id": "OptimizelyX",
+    "image": "Optimizely",
+    "name": "Optimizely X",
+    "type": "A/B Testing & Optimization",
+    "url": "https://www.optimizely.com/"
+  },
+  {
+    "id": "Outbrain",
+    "image": "Outbrain",
+    "name": "Outbrain",
+    "type": "Marketing",
+    "url": "https://www.outbrain.com/"
+  },
+  {
+    "id": "Parsely",
+    "image": "Parsely",
+    "name": "Parse.ly",
+    "type": "Analytics",
+    "url": "https://www.parse.ly/"
+  },
+  {
+    "id": "Pinterest",
+    "image": "Pinterest",
+    "name": "Pinterest Conversion",
+    "type": "Marketing",
+    "url": "https://developers.pinterest.com/docs/ad-tools/conversion-tag/"
+  },
+  {
+    "id": "PiwikPRO",
+    "image": "PiwikPRO",
+    "name": "Piwik PRO",
+    "type": "Analytics",
+    "url": "https://piwik.pro"
+  },
+  {
+    "id": "PiwikPROTagManager",
+    "image": "PiwikPRO",
+    "name": "Piwik PRO Tag Manager",
+    "type": "Tag Management",
+    "url": "https://piwik.pro/tag-manager/"
+  },
+  {
+    "id": "RTBHouse",
+    "image": "RTBHouse",
+    "name": "RTB House",
+    "type": "Marketing",
+    "url": "https://www.rtbhouse.com/"
+  },
+  {
+    "id": "RudderStack",
+    "image": "RudderStack",
+    "name": "RudderStack",
+    "type": "Analytics",
+    "url": "https://www.rudderstack.com/"
+  },
+  {
+    "id": "Segment",
+    "image": "Segment",
+    "name": "Segment",
+    "type": "Analytics",
+    "url": "https://www.segment.com/"
+  },
+  {
+    "id": "SixSense",
+    "image": "SixSense",
+    "name": "6Sense",
+    "type": "Visitor Identification",
+    "url": "https://6sense.com/platform/"
+  },
+  {
+    "id": "Snapchat",
+    "image": "Snapchat",
+    "name": "Snapchat",
+    "type": "Marketing",
+    "url": "https://businesshelp.snapchat.com/s/article/snap-pixel-about"
+  },
+  {
+    "id": "SplitIO",
+    "image": "SplitIO",
+    "name": "SplitIO",
+    "type": "Analytics",
+    "url": "https://www.split.io/"
+  },
+  {
+    "id": "Teads",
+    "image": "Teads",
+    "name": "Teads",
+    "type": "Marketing",
+    "url": "https://www.teads.com/"
+  },
+  {
+    "id": "TealiumEventStream",
+    "image": "Tealium",
+    "name": "Tealium EventStream",
+    "type": "Tag Management",
+    "url": "https://tealium.com/products/tealium-eventstream/"
+  },
+  {
+    "id": "TealiumIQ",
+    "image": "Tealium",
+    "name": "Tealium iQ",
+    "type": "Tag Management",
+    "url": "https://tealium.com/products/tealium-iq-tag-management-system/"
+  },
+  {
+    "id": "TheTradeDesk",
+    "image": "TheTradeDeskUniversal",
+    "name": "The Trade Desk",
+    "type": "Marketing",
+    "url": "https://partner.thetradedesk.com/v3/portal/data/doc/TrackingTagsUniversalPixel"
+  },
+  {
+    "id": "TikTok",
+    "image": "TikTok",
+    "name": "TikTok",
+    "type": "Marketing",
+    "url": "https://ads.tiktok.com/help/article/tiktok-pixel"
+  },
+  {
+    "id": "Twitter",
+    "image": "TwitterPixel",
+    "name": "Twitter Conversion",
+    "type": "Marketing",
+    "url": "https://business.twitter.com/"
+  },
+  {
+    "id": "WebtrendsOnDemand",
+    "image": "Webtrends",
+    "name": "Webtrends OnDemand",
+    "type": "Analytics",
+    "url": "https://www.webtrends.com/"
+  },
+  {
+    "id": "Zemanta",
+    "image": "Zemanta",
+    "name": "Zemanta",
+    "type": "Marketing",
+    "url": "https://www.zemanta.com/"
+  }
+]
+
