@@ -2,7 +2,6 @@ const path = require("path");
 
 module.exports = {
     entry: {
-        /*app: "./src/assets/scripts/app.js",*/
         homepage: "./src/assets/scripts/homepage.js",
     },
     output: {

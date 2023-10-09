@@ -2,6 +2,7 @@ const navPlugin = require("@11ty/eleventy-navigation");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = (eleventyConfig) => {
+
     let markdown = require("markdown-it")({
         html: true,
         linkify: true

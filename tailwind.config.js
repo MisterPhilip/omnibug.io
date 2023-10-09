@@ -2,12 +2,7 @@ module.exports = {
     theme: {},
     variants: {},
     plugins: [ ],
-    purge: [
-        "./dist/**/*.html",
-        "./dist/assets/scripts/*.js",
+    content: [
+        "./dist/**/*.{html,js}",
     ],
-    future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true,
-    },
 }

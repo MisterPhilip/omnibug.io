@@ -510,7 +510,7 @@ You can find a full list of releases on our [GitHub Page](https://github.com/Mis
             <li>All new styles in the devtools panel, as well as updated styling in the settings panel.</li>
             <li>Added the ability to filter requests based on account ID, provider, or both.</li>
             <li>You can now export data that have been captured.</li>
-            <li>Additionally, you can add notes to be included in the export. <em>Note: This is disabled by default.</em> <a href="{{ $page->baseUrl }}/help/settings#show-note-field">learn more</a>.</li>
+            <li>Additionally, you can add notes to be included in the export. <em>Note: This is disabled by default.</em> <a href="/help/settings#show-note-field">learn more</a>.</li>
             <li>You can now choose if you want to persist or clear requests between pages.</li>
             <li>Navigation requests (e.g. moving to a new page) will show up within the requests so you can easily see what requests belong to each page.</li>
             <li>Added relevant tooltips and help links to various places in the interface.</li>
