@@ -2,9 +2,11 @@ const navPlugin = require("@11ty/eleventy-navigation");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = (eleventyConfig) => {
-
-    eleventyConfig.addGlobalData("helpers.environment", () => process.env.NODE_ENV || "development");
+    const env = process.env.NODE_ENV || "development",
+          baseURL = (env === "development" ? "http://localhost:8080/" : "https://omnibug.io/");
+    eleventyConfig.addGlobalData("helpers.environment", env);
     eleventyConfig.addGlobalData("helpers.currentYear", () => (new Date()).getFullYear());
+    eleventyConfig.addGlobalData("helpers.baseURL", baseURL);
 
     let markdown = require("markdown-it")({
         html: true,
@@ -28,6 +30,10 @@ module.exports = (eleventyConfig) => {
         sitemap: {
             hostname: "https://omnibug.io",
         },
+    });
+
+    eleventyConfig.addFilter('toAbsoluteUrl', (url) => {
+        return new URL(url, baseURL).href;
     });
 
     return {
