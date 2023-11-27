@@ -166,8 +166,13 @@
                 if(!!_paq) {
                     _paq.push(["trackEvent", "cta click", "install", installBrowser]);
                 }
+
+                if(!!fathom) {
+                    fathom.trackEvent('install');
+                }
             }
         });
     </script>
+    <script src="https://cdn.usefathom.com/script.js" data-site="NCFRPLZV" defer></script>
 </body>
 </html>
