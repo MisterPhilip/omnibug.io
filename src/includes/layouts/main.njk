@@ -138,6 +138,9 @@
             s.parentNode.insertBefore(g, s);
         })();
 
+        // Plausible
+        window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
+
         // -----------------------
 
         window.addEventListener("click", (event) => {
@@ -170,9 +173,15 @@
                 if(!!fathom) {
                     fathom.trackEvent('install');
                 }
+
+                if(!!plausible) {
+                    plausible('install');
+                }
             }
         });
     </script>
     <script src="https://cdn.usefathom.com/script.js" data-site="NCFRPLZV" defer></script>
+    <script defer data-domain="omnibug.io" src="https://plausible.io/js/script.js"></script>
+
 </body>
 </html>
