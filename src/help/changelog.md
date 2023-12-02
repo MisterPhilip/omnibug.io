@@ -10,6 +10,16 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.23.0" id="v1.23.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.23.0</h3>
+            <time class="text-sm" datetime="2023-12-02">December 2, 2023</time>
+        </header>
+        <h5>Updates:</h5>
+        <ul>
+            <li>Requests that are not successful are now highlighted with a warning message. Any request that does not return a 2xx or 3xx status code will be included in this, in addition to browser-cancelled events (e.g., ad blockers, or navigating to a new page prior to a response).</li>
+        </ul>
+    </article>
     <article data-version="1.22.0" id="v1.22.0" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.22.0</h3>
