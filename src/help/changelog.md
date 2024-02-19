@@ -10,6 +10,17 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="1.24.0" id="v1.24.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v1.24.0</h3>
+            <time class="text-sm" datetime="2024-02-19">February 19, 2024</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added Reddit Pixel</li>
+            <li>Added Dynamic Yield</li>
+        </ul>
+    </article>
     <article data-version="1.23.0" id="v1.23.0" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.23.0</h3>
