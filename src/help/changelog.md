@@ -10,6 +10,27 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="2.0.0" id="v2.0.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v2.0.0</h3>
+            <time class="text-sm" datetime="2024-08-04">August 4, 2024</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added Seznam Sklik (thanks @romangazarek!)</li>
+            <li>Added Invoca library</li>
+            <li>Added Sojern</li>
+            <li>Added Vibes</li>
+            <li>Added Mixpanel</li>
+            <li>Removed Google consent mode update calls from UA</li>
+            <li>Updated GA4 to show event count in main panel</li>
+        </ul>
+        <h5>Updates:</h5>
+        <ul>
+            <li>Updated to Manifest v3</li>
+            <li>Added warning for ping requests with POST data</li>
+        </ul>
+    </article>
     <article data-version="1.24.0" id="v1.24.0" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v1.24.0</h3>
