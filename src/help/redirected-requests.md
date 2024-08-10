@@ -10,7 +10,7 @@ eleventyNavigation:
 
 It is common for <abbr title="Marketing Tools">providers</abbr> to redirect entries to different domains to set various 
 cookies or add parameters as required by their tools. Usually, these redirects happen via [HTTP 3XX redirects](https://en.wikipedia.org/wiki/URL_redirection#HTTP_status_codes_3xx)
-and don't duplicate data on the back-end. Previously in in Omnibug, these showed up as separate line items without any 
+and don't duplicate data on the back-end. Previously in Omnibug, these showed up as separate line items without any 
 indication that the redirected entries were the same as the original entries. In versions 1.0+ of Omnibug, an icon will 
 appear to indicate an entry was redirected. 
 

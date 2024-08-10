@@ -8,7 +8,7 @@ eleventyNavigation:
     parent: help
 ---
 
-This article discusses all of settings and options within Omnibug. Changes to the settings are done in real-time, so 
+This article discusses all settings and options within Omnibug. Changes to the settings are done in real-time, so 
 any changes made here will be reflected in any open instances of Omnibug. You can reach the settings page by clicking the 
 gear icon in any open Omnibug window. 
 
