@@ -10,6 +10,27 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="2.0.2" id="v2.0.2" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v2.0.2</h3>
+            <time class="text-sm" datetime="2024-08-11">August 11, 2024</time>
+        </header>
+        <h5>Updates:</h5>
+        <ul>
+            <li>Fixed disabled providers from being captured by Omnibug.</li>
+            <li>Reduced number of times the <a href="/help/post-data-error">post+ping warning</a> will show up.</li>
+        </ul>
+    </article>
+    <article data-version="2.0.1" id="v2.0.1" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v2.0.1</h3>
+            <time class="text-sm" datetime="2024-08-05">August 5, 2024</time>
+        </header>
+        <h5>Updates:</h5>
+        <ul>
+            <li>Removing unused libraries; Chrome only.</li>
+        </ul>
+    </article>
     <article data-version="2.0.0" id="v2.0.0" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v2.0.0</h3>
