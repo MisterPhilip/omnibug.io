@@ -8,14 +8,21 @@
         <title>{{  title  }} | Omnibug</title>
     {%  endif %}
     <meta charset="utf-8">
-    {%  if meta_description %}
-        <meta name="description" content="{{  meta_description }}"/>
-    {%  endif %}
+    {%  if meta_description %}<meta name="description" content="{{  meta_description }}"/>{%  endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta rel="canonical" href="{{ page.url | htmlBaseUrl }}">
     <meta name="generator" content="{{ eleventy.generator }}">
+
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+
+    <meta property="og:url" content="{{ page.url | htmlBaseUrl }}" />
+    <meta property="og:locale " content="en_US" />
+    <meta property="og:site_name " content="Omnibug" />
+    {%  if meta_description %}<meta property="og:description" content="{{ meta_description }}"/>{%  endif %}
+    {%  if meta_image %}<meta property="og:image" content="{{ meta_image | htmlBaseUrl }}"/>{%  endif %}
+    <meta property="og:type" content="{{ meta_type | default("website") }}" />
+
 </head>
 <body class="flex flex-col min-h-screen">
     <script>

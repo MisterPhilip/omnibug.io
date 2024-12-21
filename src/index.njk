@@ -121,7 +121,7 @@ layout: layouts/main.njk
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
             <div class="carousel-item absolute h-full opacity-0">
                 <figure class="w-full h-full mx-auto pb-8 block">
-                    <img src="assets/images/homepage-screenshot-filters.png" class="mx-auto shadow-2xl border" aria-labelledby="caption-filter" width="818" height="620">
+                    <img src="assets/images/homepage-screenshot-filters.png" class="mx-auto shadow-2xl border" aria-labelledby="caption-filter" width="818" height="620" alt="" role="presentation">
                     <figcaption class="text-center py-2" id="caption-filter">Easily filter all requests for the tags and accounts you care about.</figcaption>
                 </figure>
             </div>
@@ -132,7 +132,7 @@ layout: layouts/main.njk
             <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute h-full opacity-0">
                 <figure class="w-full h-full mx-auto pb-8 block">
-                    <img src="assets/images/homepage-screenshot-export.png" class="mx-auto shadow-2xl border" aria-labelledby="caption-export" width="818" height="620">
+                    <img src="assets/images/homepage-screenshot-export.png" class="mx-auto shadow-2xl border" aria-labelledby="caption-export" width="818" height="620" alt="" role="presentation">
                     <figcaption class="text-center py-2" id="caption-export">Export your QA session for further review.</figcaption>
                 </figure>
             </div>
@@ -143,7 +143,7 @@ layout: layouts/main.njk
             <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute h-full opacity-0">
                 <figure class="w-full h-full mx-auto pb-8 block">
-                    <img src="assets/images/homepage-screenshot-details.png" class="mx-auto shadow-2xl border" aria-labelledby="caption-details" width="818" height="620">
+                    <img src="assets/images/homepage-screenshot-details.png" class="mx-auto shadow-2xl border" aria-labelledby="caption-details" width="818" height="620" alt="" role="presentation">
                     <figcaption class="text-center py-2" id="caption-details">Quickly understand key information about the requests sent.</figcaption>
                 </figure>
             </div>
@@ -193,3 +193,23 @@ layout: layouts/main.njk
     </div>
 </section>
 <script src="/assets/scripts/homepage.js" defer></script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Omnibug",
+        "operatingSystem": ["Chrome, Edge, Firefox"],
+        "applicationCategory": ["BrowserApplication", "WebApplication"],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.1,
+            "ratingCount": 51
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": 0,
+            "priceCurrency": "USD"
+        },
+        "releaseNotes": "{{ "/help/changelog" | htmlBaseUrl }}"
+    }
+</script>

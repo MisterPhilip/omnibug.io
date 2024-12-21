@@ -30,12 +30,12 @@ eleventyNavigation:
                     <th scope="row" class="px-6 py-4 font-medium text-slate-900 whitespace-nowrap dark:text-white">
                         {% if tag.url %}
                             <a href="{{tag.url }}" rel="nofollow" class="flex flex-row items-center" target="_blank">
-                                <img src="/assets/images/logos/tags/{{ tag.image | upper }}16x16.png" class="w-[16px]">
+                                <img src="/assets/images/logos/tags/{{ tag.image | upper }}16x16.png" class="w-[16px]" alt="" role="presentation">
                                 <span class="pl-4">{{ tag.name }}</span>
                             </a>
                         {% else %}
                             <div class="flex flex-row items-center">
-                                <img src="/assets/images/logos/tags/{{ tag.image | upper }}16x16.png" class="w-[16px] pr-6">
+                                <img src="/assets/images/logos/tags/{{ tag.image | upper }}16x16.png" class="w-[16px] pr-6" alt="" role="presentation">
                                 <span class="pl-4">{{ tag.name }}</span>
                             </div>
                         {% endif %}

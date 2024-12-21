@@ -15,8 +15,8 @@ prevalent for Chromium-based browsers when a ping or beacon request is made.
 
 <figure class="figure text-center">
     <img src="/assets/images/help/post-data-error.png" class="mx-auto border" alt="A request that had an error retrieving POST data.">
-    <figcaption>An icon shows that request that has been redirected</figcaption>
+    <figcaption>The error message when POST data may not be fully collected.</figcaption>
 </figure>
 
 Unfortunately, this is out of Omnibug's control. There is an [open Omnibug ticket](https://github.com/MisterPhilip/omnibug/issues/213)
-where we will continue to provide updates as the Chromium team looks into this issue or as we find workarounds. 
+where we will continue to provide updates as the Chromium team looks into this issue or as we find workarounds.
