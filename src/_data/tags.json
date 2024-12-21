@@ -140,6 +140,13 @@
     "url": "https://www.demandbase.com/solutions/engagement/"
   },
   {
+    "id": "DynamicYield",
+    "image": "DynamicYield",
+    "name": "Dynamic Yield",
+    "type": "A/B Testing & Optimization",
+    "url": "https://www.dynamicyield.com/"
+  },
+  {
     "id": "EnsightenManage",
     "image": "Ensighten",
     "name": "Ensighten Manage",
@@ -344,7 +351,7 @@
   },
   {
     "id": "SEZNAMSKLIK",
-    "image": "Segment",
+    "image": "SEZNAMSKLIK",
     "name": "Sklik.cz",
     "type": "Marketing",
     "url": "https://www.sklik.cz/"
@@ -362,6 +369,13 @@
     "name": "Snapchat",
     "type": "Marketing",
     "url": "https://businesshelp.snapchat.com/s/article/snap-pixel-about"
+  },
+  {
+    "id": "Sojern",
+    "image": "Sojern",
+    "name": "Sojern",
+    "type": "Marketing",
+    "url": "https://www.sojern.com/"
   },
   {
     "id": "SplitIO",
