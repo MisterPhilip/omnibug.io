@@ -1,11 +1,12 @@
-const path = require("path");
+import path from "path";
+// import { fileURLToPath } from 'url';
 
-module.exports = {
+export default {
     entry: {
         homepage: "./src/assets/scripts/homepage.js",
     },
     output: {
-        path: path.resolve(__dirname, "dist/assets/scripts"),
+        path: path.resolve("./dist/assets/scripts"),
         filename: "[name].js"
     },
     module: {

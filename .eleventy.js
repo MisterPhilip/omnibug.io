@@ -1,20 +1,29 @@
-const navPlugin = require("@11ty/eleventy-navigation");
-const sitemap = require("@quasibit/eleventy-plugin-sitemap");
-const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
+import navPlugin from "@11ty/eleventy-navigation";
+import inclusiveLangPlugin from "@11ty/eleventy-plugin-inclusive-language";
+import { default as markdownLib } from "markdown-it";
+import { default as markdownExtras } from "markdown-it-attrs";
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
-module.exports = (eleventyConfig) => {
+
+export default (eleventyConfig) => {
     const env = process.env.NODE_ENV || "development",
           baseURL = (env === "development" ? "http://localhost:8080/" : "https://omnibug.io/");
     eleventyConfig.addGlobalData("helpers.environment", env);
     eleventyConfig.addGlobalData("helpers.currentYear", () => (new Date()).getFullYear());
     eleventyConfig.addGlobalData("helpers.baseURL", baseURL);
 
-    let markdown = require("markdown-it")({
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
+        baseHref: baseURL,
+        extensions: "html,xml"
+    });
+
+
+    let markdown = markdownLib({
         html: true,
         linkify: true
     });
 
-    markdown.use(require("markdown-it-attrs"));
+    markdown.use(markdownExtras);
     eleventyConfig.setLibrary("md", markdown);
 
     // Ensure all webpack-compiled (mix) assets are copied over
@@ -28,20 +37,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(navPlugin);
     eleventyConfig.addPlugin(inclusiveLangPlugin);
 
-    eleventyConfig.addPlugin(sitemap, {
-        sitemap: {
-            hostname: "https://omnibug.io",
-        },
-    });
-
-    eleventyConfig.addFilter('toAbsoluteUrl', (url) => {
-        return new URL(url, baseURL).href;
-    });
-
     return {
-        // templateFormats: ["css"],
-        // markdownTemplateEngine: 'njk',
-        // htmlTemplateEngine: "md",
         dir: {
             input: "src",
             output: "dist",

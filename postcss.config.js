@@ -1,8 +1,8 @@
-const tailwindcss = require("tailwindcss");
-const cssnano = require("cssnano");
-const autoprefixer = require("autoprefixer");
+import { default as tailwindcss } from "tailwindcss";
+import cssnano from "cssnano";
+import autoprefixer from "autoprefixer";
 
-module.exports = {
+export default {
     plugins: [
         autoprefixer,
         tailwindcss,
