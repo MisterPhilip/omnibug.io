@@ -34,6 +34,10 @@ export default (eleventyConfig) => {
     eleventyConfig.addWatchTarget("src/assets/css");
     eleventyConfig.addWatchTarget("src/assets/images");
 
+    // Add redirects
+    eleventyConfig.addPassthroughCopy("./_redirects");
+    eleventyConfig.addPassthroughCopy("./_headers");
+
     eleventyConfig.addPlugin(navPlugin);
     eleventyConfig.addPlugin(inclusiveLangPlugin);
 
