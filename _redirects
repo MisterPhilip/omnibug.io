@@ -6,7 +6,7 @@
 /terms-of-service/ /legal/terms-of-service/ 301
 /cookie-policy /legal/cookie-policy/ 301
 /cookie-policy/ /legal/cookie-policy/ 301
-/features / 301
-/features/ / 301
+/features /#features 301
+/features/ /#features 301
 /help/chrome-missing-omnibug /help/omnibug-does-not-show/ 301
 /help/chrome-missing-omnibug/ /help/omnibug-does-not-show/ 301
