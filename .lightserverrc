@@ -3,10 +3,10 @@
   "serve": "./dist",
   "quiet": false,
   "watchexps": [
-    "./src/scripts/**/*.js # npm run scripts:dev",
-    "./src/styles/**/*.scss # npm run styles:dev # reloadcss",
+    "./src/assets/scripts/**/*.js # pnpm -r scripts:dev",
+    "./src/assets/styles/**/*.scss # pnpm -r styles:dev # reloadcss",
     "./dist/**/*.html",
-    "./src/images/"
+    "./src/assets/images/"
   ],
   "http2": false,
   "open": true

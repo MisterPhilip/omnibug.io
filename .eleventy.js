@@ -31,7 +31,7 @@ export default (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("src/assets/images");
 
     // Add a watch to those webpack-compiled (mix) assets so they can be copied over when updated
-    eleventyConfig.addWatchTarget("src/assets/css");
+    eleventyConfig.addWatchTarget("src/assets/scss");
     eleventyConfig.addWatchTarget("src/assets/images");
 
     // Add redirects
