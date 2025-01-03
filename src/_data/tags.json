@@ -154,6 +154,13 @@
     "url": "https://www.ensighten.com/products/enterprise-tag-management/"
   },
   {
+    "id": "EnsightenServerSide",
+    "image": "Ensighten",
+    "name": "Ensighten Server Side",
+    "type": "Tag Management",
+    "url": "https://www.ensighten.com/products/enterprise-tag-management/"
+  },
+  {
     "id": "FacebookPixel",
     "image": "Facebook",
     "name": "Facebook Pixel",
@@ -224,6 +231,13 @@
     "url": "https://knowledge.hubspot.com/reports/install-the-hubspot-tracking-code"
   },
   {
+    "id": "Indicative",
+    "image": "Mparticle",
+    "name": "Indicative",
+    "type": "Analytics",
+    "url": "https://www.indicative.com/"
+  },
+  {
     "id": "Invoca",
     "image": "Invoca",
     "name": "Invoca",
@@ -259,6 +273,13 @@
     "url": "https://www.medallia.com/products/digital-experience-analytics/"
   },
   {
+    "id": "MerkleMerkury",
+    "image": "MerkleMerkury",
+    "name": "Merkle Merkury",
+    "type": "Analytics",
+    "url": "https://www.merkle.com/en/capabilities/merkury-enterprise.html"
+  },
+  {
     "id": "MicrosoftClarity",
     "image": "MSClarity",
     "name": "Microsoft Clarity",
@@ -278,6 +299,13 @@
     "name": "Mparticle",
     "type": "Marketing",
     "url": "https://www.mparticle.com/"
+  },
+  {
+    "id": "Omniconvert",
+    "image": "Omniconvert",
+    "name": "Omniconvert",
+    "type": "Visitor Identification",
+    "url": "https://www.omniconvert.com/"
   },
   {
     "id": "OptimizelyX",
@@ -383,6 +411,13 @@
     "name": "SplitIO",
     "type": "Analytics",
     "url": "https://www.split.io/"
+  },
+  {
+    "id": "Spotify",
+    "image": "Spotify",
+    "name": "Spotify",
+    "type": "Marketing",
+    "url": "https://ads.spotify.com/en-US/ad-analytics/spotify-pixel/"
   },
   {
     "id": "Teads",

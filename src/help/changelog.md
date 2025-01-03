@@ -10,6 +10,25 @@ eleventyNavigation:
 You can find a full list of releases on our [GitHub Page](https://github.com/MisterPhilip/omnibug/releases)
 
 <section id="changelog">
+    <article data-version="2.1.0" id="v2.1.0" class="border-b-2 mb-2">
+        <header class="mb-2">
+            <h3>v2.1.0</h3>
+            <time class="text-sm" datetime="2025-01-02">January 2, 2025</time>
+        </header>
+        <h5>Provider Updates:</h5>
+        <ul>
+            <li>Added Spotify</li>
+            <li>Added Ensighten Server-Side</li>
+            <li>Added Merkle Merkury</li>
+            <li>Added Indicative</li>
+            <li>Added Omniconvert</li>
+        </ul>
+        <h5>Updates:</h5>
+        <ul>
+            <li>Fixed several minor POST data request bugs</li>
+            <li>Fixed CSV exports not properly escaping quotes</li>
+        </ul>
+    </article>
     <article data-version="2.0.2" id="v2.0.2" class="border-b-2 mb-2">
         <header class="mb-2">
             <h3>v2.0.2</h3>
